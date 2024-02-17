@@ -1,4 +1,3 @@
-
 from PyPDF2 import PdfReader
 def text_reader(pdf_name,Starting_page,Ending_page):
     try:
@@ -14,8 +13,6 @@ def text_reader(pdf_name,Starting_page,Ending_page):
     except ValueError as e:
         print("The Entered must be a Integer: ")
         return False
-    finally:
-        print("Gebeb:")
 while True:
     pdf_name=input("Enter the PDF Name: ")
     try:
